@@ -52,6 +52,5 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation ("androidx.fragment:fragment-ktx:1.6.1")
 
-
-
+    implementation ("androidx.core:core:1.10.1")
 }
