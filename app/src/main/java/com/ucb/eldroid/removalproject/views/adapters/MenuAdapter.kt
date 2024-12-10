@@ -25,7 +25,7 @@ class MenuAdapter(
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val view: View = convertView ?: LayoutInflater.from(context)
-            .inflate(R.layout.menu_list, parent, false)
+            .inflate(R.layout.menu_list_item, parent, false)
 
         val titleTextView: TextView = view.findViewById(R.id.menuItemTitle)
         val priceTextView: TextView = view.findViewById(R.id.menuItemPrice)
